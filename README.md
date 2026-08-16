@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## About
 
-## Getting Started
+In the API assignment, I created a website with 11,290 bird species. Now it is time to test your knowledge with a quiz containing a selected few from all those birds. I really hope you get all questions right!
 
-First, run the development server:
+## How the website works:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The website has a main page with a header, footer and a short introduction. The introduction contains a button to start the bird quiz. 
+![alt text](image.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+When clicking the "Get started" button, the quiz are supposed to start where you will see an image of an bird and have four options to pick from. When clicked on an option, it should display if the answer was right or wrong and also show the correct answer. 
+![alt text](image-1.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The quiz also displays how many total questions there are as well as your score. 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+When you have answered al five questions, a button saying "See results" will show up. When clicked, it will display your score. From the score section, you can also choose to play the quiz again. By clicking "Play again", you will be taken to the introduction section again, where you can click "Get started".
 
-## Learn More
+![alt text](image-2.png)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+That is all (I think...)!
