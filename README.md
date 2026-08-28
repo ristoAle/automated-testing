@@ -1,19 +1,23 @@
-## About
+About
 
-In the API assignment, I created a website with 11,290 bird species. Now it is time to test your knowledge with a quiz containing a selected few from all those birds. I really hope you get all questions right!
+What kind of passenger are you?
 
-## How the website works:
+Test yourself with five fun airplane scenarios inspired by common passenger situations. Choose what you think is the best answer and find out if you are a dream passenger or a cabin crew nightmare!
 
-The website has a main page with a header, footer and a short introduction. The introduction contains a button to start the bird quiz. 
-![alt text](image.png)
 
-When clicking the "Get started" button, the quiz are supposed to start where you will see an image of an bird and have four options to pick from. When clicked on an option, it should display if the answer was right or wrong and also show the correct answer. 
-![alt text](image-1.png)
+How the website works
 
-The quiz also displays how many total questions there are as well as your score. 
+The website has a main page with a header, footer and a short introduction. The introduction contains a button to start the quiz. 
 
-When you have answered al five questions, a button saying "See results" will show up. When clicked, it will display your score. From the score section, you can also choose to play the quiz again. By clicking "Play again", you will be taken to the introduction section again, where you can click "Get started".
+When clicking the "Get Started" button, the quiz begins.
 
-![alt text](image-2.png)
+The quiz contains five questions based on different situations during a flight, from boarding to landing.
 
-That is all (I think...)!
+Each question displays an image of a passenger situation and four possible answers. After selecting an answer, the website shows whether the answer was right or wrong and displays the correct answer.
+
+The quiz also displays the total number of questions and the player's current score.
+
+After answering all five questions, a "See results" button is displayed. When clicked, it will display your score. 
+The results section shows the player's final score and reveals what kind of passenger they are.
+
+From the results section, the player can select "Play again" to return to the introduction and start the quiz again.
