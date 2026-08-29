@@ -1,7 +1,7 @@
 const Header = () => {
     return(
         <header>
-            <div className="flex items-center justify-center border-b p-3 gap-3 sm:gap-6">         
+            <div className="flex items-center justify-center border-b  border-amber-400 p-3 gap-3 sm:gap-6">         
                 <img 
                     src="/logo.png" 
                     alt="header"
