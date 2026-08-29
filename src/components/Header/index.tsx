@@ -1,13 +1,13 @@
 const Header = () => {
     return(
         <header>
-            <div className="flex items-center justify-center border-b  border-amber-400 p-3 gap-3 sm:gap-6">         
+            <div className="flex items-center gap-4 sm:justify-around border-b border-amber-400 p-2">         
                 <img 
                     src="/logo.png" 
                     alt="header"
-                    className="h-30 w-auto rounded-full sm:h-24 sm:w-24"
+                    className="h-15 w-auto rounded-full sm:h-24 sm:w-24"
                 /> 
-                <h1 className="text-xl sm:text-3xl">What kind of passenger are you?</h1>
+                <h2 className="text-xl sm:text-3xl">Passenger Testing</h2>
             </div>
         </header>
     )
