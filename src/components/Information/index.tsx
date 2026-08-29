@@ -10,7 +10,7 @@ const Information = ({ startQuiz }: InformationProps) => {
           Name that bird? Not this time!
         </h1>
 
-        <p className="mt-6 text-base leading-7 text-gray-600 sm:text-lg">
+        <p className="mt-6 sm:text-lg">
           In the API assignment, it was all about birds. This time,
           we're taking the quiz to 30,000 feet! Test yourself with five
           everyday airplane situations and find out what kind of

@@ -7,6 +7,7 @@ export default function Home() {
   const startQuiz = () => {
     console.log("Quiz started")
   }
+
   return (
     <div className="flex min-h-screen flex-col">
       <Header />
