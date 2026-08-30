@@ -4,6 +4,7 @@ import { Question } from '@/types/questions';
 
 const mockQuizQuestion: Question = {
   id: 1,
+  question: 'Which bird is shown?',
   imageUrl: '/marsh-owl.png',
   options: ['Marsh Owl', 'Crimson Chat', 'Shy Ground Dove', 'Albatross'],
   correctAnswer: 'Marsh Owl',
