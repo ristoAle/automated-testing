@@ -28,6 +28,10 @@ const Quiz = ({
                     alt="Quiz question"
                     className="w-full rounded-xl"
                 />
+
+                <h2 className="mt-6 text-xl font-semibold sm:text-2xl">
+                    {currentQuestion.question}
+                </h2>
                 
                 <div className="mt-4 flex justify-between">
                     <p> Question {currentQuestionIndex + 1} of {totalQuestions}</p>
@@ -39,12 +43,18 @@ const Quiz = ({
                         let buttonStyle =
                             "rounded border p-3 text-left hover:cursor-pointer"
 
+                        if (selectedAnswer !== null) {
+                            if (option === currentQuestion.correctAnswer) {
+                                buttonStyle = "rounded border p-3 text-left text-green-800"
+                            }
+                        }
+                        
                         if (
                             selectedAnswer === option &&
-                            option === currentQuestion.correctAnswer
+                            option !== currentQuestion.correctAnswer
                         ) {
                             buttonStyle =
-                                "rounded border p-3 text-left text-green-800"
+                                "rounded border p-3 text-left text-red-800"
                         }
 
                         return (
@@ -65,7 +75,10 @@ const Quiz = ({
                         onClick={handleNextQuestion}
                         className="mt-6 rounded bg-amber-400 px-6 py-3 font-semibold hover:cursor-pointer hover:bg-amber-600"
                     >
-                        Next question
+                        {currentQuestionIndex === totalQuestions - 1
+                            ? "See results"
+                            : "Next question"
+                        }
                     </button>
                 )}
             </div>

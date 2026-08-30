@@ -5,6 +5,17 @@ type ScoreProps = {
 }
 
 const Score = ({ restartQuiz, score, totalQuestions }: ScoreProps) => {
+  let passengerType = ""
+
+  if (score === 5) {
+    passengerType = "Dream passenger"
+  } else if (score >= 3) {
+    passengerType = "Frequent flyer"
+  } else if (score >= 1) {
+    passengerType = "Needs improvement"
+  } else {
+    passengerType = "Cabin crew nightmare"
+  }
   return (
     <section className="flex flex-1 items-center justify-center px-4 py-10 sm:px-6">
       <div className="w-full max-w-2xl text-left">
@@ -18,6 +29,10 @@ const Score = ({ restartQuiz, score, totalQuestions }: ScoreProps) => {
           {" "}out of{" "}
           <span data-testid="total-questions" className="font-semibold">{totalQuestions}</span>
         </p>
+
+		<h3 className="mt-6 text-2xl font-semibold">
+          You are a:  {passengerType}!
+        </h3>
 
         <button
           data-testid="restart-quiz"
